@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/names-list-with-react-and-typescript-demo/static/css/main.9feb3e4e.chunk.css",
+    "main.js": "/names-list-with-react-and-typescript-demo/static/js/main.c352c450.chunk.js",
+    "main.js.map": "/names-list-with-react-and-typescript-demo/static/js/main.c352c450.chunk.js.map",
+    "runtime-main.js": "/names-list-with-react-and-typescript-demo/static/js/runtime-main.76efb74b.js",
+    "runtime-main.js.map": "/names-list-with-react-and-typescript-demo/static/js/runtime-main.76efb74b.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/names-list-with-react-and-typescript-demo/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.4ba885c0.chunk.js": "/names-list-with-react-and-typescript-demo/static/js/2.4ba885c0.chunk.js",
+    "static/js/2.4ba885c0.chunk.js.map": "/names-list-with-react-and-typescript-demo/static/js/2.4ba885c0.chunk.js.map",
+    "index.html": "/names-list-with-react-and-typescript-demo/index.html",
+    "precache-manifest.d8e2805afd7a0668cb40077376cd2159.js": "/names-list-with-react-and-typescript-demo/precache-manifest.d8e2805afd7a0668cb40077376cd2159.js",
+    "service-worker.js": "/names-list-with-react-and-typescript-demo/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/names-list-with-react-and-typescript-demo/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.9feb3e4e.chunk.css.map": "/names-list-with-react-and-typescript-demo/static/css/main.9feb3e4e.chunk.css.map",
+    "static/js/2.4ba885c0.chunk.js.LICENSE.txt": "/names-list-with-react-and-typescript-demo/static/js/2.4ba885c0.chunk.js.LICENSE.txt",
+    "static/media/typescript-logo-512.png": "/names-list-with-react-and-typescript-demo/static/media/typescript-logo-512.eb2df43a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76efb74b.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.4ba885c0.chunk.js",
+    "static/css/main.9feb3e4e.chunk.css",
+    "static/js/main.c352c450.chunk.js"
+  ]
+}
