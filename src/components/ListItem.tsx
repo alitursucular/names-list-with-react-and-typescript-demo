@@ -14,7 +14,7 @@ export const ListItem: React.FC<ListItemProps> = ({ name, removeName }) => {
     return (
         <li className="app_list_item">
             <span className="app_list_item--name">{name.text}</span>
-            <span className="app_list_item--remove" onClick={handleRemove}>Remove</span>
+            <span className="app_list_item--remove" onClick={handleRemove}>&times;</span>
         </li>
     )
 }

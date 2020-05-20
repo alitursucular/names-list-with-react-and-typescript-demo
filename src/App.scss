@@ -5,6 +5,7 @@ ul {
 }
 
 input[type="button"],
+input[type="submit"],
 button:focus {
     outline: 0;
 }
@@ -27,14 +28,15 @@ button:focus {
 
             &--image {
                 width: 100px;
+                height: auto;
                 margin: 0 8px;
             }
         }
 
         &_title {
             font-size: 26px;
-            text-align: center;
             font-weight: bold;
+            text-align: center;
         }
 
     }
@@ -50,27 +52,26 @@ button:focus {
             margin-bottom: 16px;
 
             &--input {
+                font-size: 18px;
                 border: none;
                 border-bottom: 1px solid #dfe1e5;
                 outline: 0;
                 padding-bottom: 8px;
-                font-size: 18px;
                 width: 100%;
             }
 
             &--button {
                 border: none;
-                background-color: #9AA0A6;
-                color: white;
-                border-radius: 50%;
+                background-color: transparent;
                 font-size: 42px;
                 line-height: 32px;
                 font-weight: bold;
-                margin-left: 24px;
-                padding: 2px 7px 10px 7px;
+                color: #9AA0A6;
+                padding-right: 0;
+                margin-left: 16px;
 
                 &:hover {
-                    background-color: rgb(135, 139, 143);
+                    opacity: 0.7;
                 }
             }
         }
@@ -79,10 +80,7 @@ button:focus {
             display: flex;
             justify-content: space-between;
             align-items: center;
-
-            &:not(:last-of-type) {
-                margin-bottom: 8px;
-            }
+            padding: 8px 0;
 
             &--name {
                 font-size: 18px;
@@ -90,14 +88,16 @@ button:focus {
             }
 
             &--remove {
-                color: #80868B;
-                padding: 4px;
+                align-self: stretch;
+                color: #757575;
+                font: 27px/25px arial, sans-serif;
+                padding: 10px 10px 0;
+                margin: -8px 0;
+                cursor: pointer;
 
                 &:hover {
-                    cursor: pointer;
                     opacity: 0.7;
                 }
-
             }
         }
     }
@@ -106,17 +106,16 @@ button:focus {
         display: flex;
         align-items: center;
         flex-flow: column nowrap;
-        margin-top: 32px;
 
         &--button {
+            font-size: 22px;
             width: 250px;
             border: 2px solid #007acc;
+            border-radius: 50px;
             color: #007acc;
             background-color: white;
-            font-size: 22px;
             padding: 20px 20px;
-            border-radius: 50px;
-            margin-bottom: 24px;
+            margin-top: 32px;
 
             &:hover {
                 background-color: rgba(0, 122, 204, .1);
@@ -127,14 +126,20 @@ button:focus {
             }
         }
 
-        &--name {
-            font-size: 32px;
-            text-align: center;
-            width: 100%;
+        &_result {
+            margin-top: 32px;
             background-color: rgba(154, 160, 166, .1);
             border-radius: 16px;
-            padding: 16px 0;
+            padding: 16px;
+            width: 100%;
+
+            &--name {
+                font-size: 32px;
+                text-align: center;
+                font-weight: bold;
+            }
         }
+
     }
 
     &_developer {
