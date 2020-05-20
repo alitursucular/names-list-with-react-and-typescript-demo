@@ -28,7 +28,7 @@ button:focus {
 
             &--image {
                 width: 100px;
-                height: auto;
+                height: 100px;
                 margin: 0 8px;
             }
         }
@@ -52,6 +52,7 @@ button:focus {
             margin-bottom: 16px;
 
             &--input {
+                display: inline-flex;
                 font-size: 18px;
                 border: none;
                 border-bottom: 1px solid #dfe1e5;
