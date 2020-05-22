@@ -13,7 +13,7 @@ export const AddListItem: React.FC<AddListItemProps> = ({ addName }) => {
         setNewName(e.target.value);
     }
 
-    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    const handleSubmit = (e: FormEvent<HTMLElement>) => {
         e.preventDefault();
         addName(newName);
         setNewName("");
@@ -24,9 +24,9 @@ export const AddListItem: React.FC<AddListItemProps> = ({ addName }) => {
             <div className="col-sm-12">
                 <form className="app_list_form" onSubmit={handleSubmit}>
                     <input className="app_list_form--input" type="text" value={newName} onChange={handleChange} placeholder="Please type a name..." autoFocus />
-                    <button className="app_list_form--button" >
+                    <span className="app_list_form--span" onClick={handleSubmit} >
                         <FontAwesomeIcon icon={faLevelDownAlt} rotation={90} />
-                    </button>
+                    </span>
                 </form>
             </div>
         </div>

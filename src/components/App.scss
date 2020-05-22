@@ -14,7 +14,7 @@ button:focus {
     width: 600px;
     margin: 0 auto;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767.98px) {
         width: 100%;
     }
 
@@ -44,17 +44,15 @@ button:focus {
                 appearance: none;
             }
 
-            &--button {
-                display: flex;
-                align-self: center;
+            &--span {
                 position: absolute;
                 right: 0 !important;
-                border: none;
-                background-color: transparent;
                 font-size: 32px;
+                line-height: 32px;
                 color: #9AA0A6;
-                margin-left: auto;
                 z-index: 999;
+                padding: 0 8px;
+                cursor: pointer;
 
                 &:hover {
                     opacity: 0.7;
@@ -68,9 +66,12 @@ button:focus {
             padding: 8px 15px;
             margin: 0 -15px;
 
-            &:hover {
-                background-color: #eee;
+            @media (min-width: 767.98px) {
+                &:hover {
+                    background-color: #eee;
+                }
             }
+
 
             &--name {
                 font-size: 18px;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import { initialNames } from '../initialNames';
@@ -45,9 +45,13 @@ const App: React.FC = () => {
     recursivePickName();
   }
 
+  useEffect(() => {
+    console.clear();
+    console.log('\nDeveloped by Ali Tursucular\n\nLinkedIn: https://www.linkedin.com/in/alitursucular/\nPersonal Portfolio: https://alitursucular.github.io');
+  }, [])
+
   return (
     <>
-      {console.log('\nDeveloped by Ali Tursucular\n\nLinkedIn: https://www.linkedin.com/in/alitursucular/\nPersonal Portfolio: https://alitursucular.github.io')}
       <div className="container">
         <div className="app mt-5 mb-4">
           <Header />
