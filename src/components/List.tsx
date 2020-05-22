@@ -1,5 +1,6 @@
 import React from 'react';
 import { ListItem } from './ListItem';
+import { ListError } from './ListError';
 
 interface ListProps {
     names: Array<Name>;
@@ -11,6 +12,7 @@ export const List: React.FC<ListProps> = ({ names, removeName }) => {
         <div className="row">
             <div className="col-sm-12">
                 <ul>
+                    <ListError names={names} />
                     {names.map((name, index) => (
                         <ListItem
                             key={index}
