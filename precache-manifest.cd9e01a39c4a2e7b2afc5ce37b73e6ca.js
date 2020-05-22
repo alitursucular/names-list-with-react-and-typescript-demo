@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cec1219f8a95008166a43b315f507c25",
+    "revision": "cc5741ddcf1ddc0b345c08dcc4127d78",
     "url": "/names-list-with-react-and-typescript-demo/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/names-list-with-react-and-typescript-demo/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "b3c6cb125caab4614c92",
-    "url": "/names-list-with-react-and-typescript-demo/static/css/main.a8d0dde5.chunk.css"
+    "revision": "02108e32adc4a13f782a",
+    "url": "/names-list-with-react-and-typescript-demo/static/css/main.a55afd6e.chunk.css"
   },
   {
     "revision": "2c75fc3234658436a930",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/names-list-with-react-and-typescript-demo/static/js/2.5bf79912.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3c6cb125caab4614c92",
+    "revision": "02108e32adc4a13f782a",
     "url": "/names-list-with-react-and-typescript-demo/static/js/main.77e404d0.chunk.js"
   },
   {
