@@ -24,7 +24,7 @@ export const AddListItem: React.FC<AddListItemProps> = ({ addName }) => {
             <div className="col-sm-12">
                 <form className="app_list_form" onSubmit={handleSubmit}>
                     <input className="app_list_form--input" type="text" value={newName} onChange={handleChange} placeholder="Please type a name..." autoFocus />
-                    <button className="app_list_form--button" type="submit" >
+                    <button className="app_list_form--button" >
                         <FontAwesomeIcon icon={faLevelDownAlt} rotation={90} />
                     </button>
                 </form>

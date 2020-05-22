@@ -5,6 +5,7 @@ ul {
 }
 
 input[type="button"],
+input[type="submit"],
 button:focus {
     outline: 0;
 }
@@ -23,13 +24,13 @@ button:focus {
         padding: 16px;
 
         &_form {
-            display: inline-flex;
+            display: flex;
             flex-flow: row nowrap;
             align-items: center;
+            justify-content: space-between;
             border-bottom: 1px solid #dfe1e5;
             padding-bottom: 8px;
             position: relative;
-            width: 100%;
 
             &--input {
                 position: relative;
@@ -44,17 +45,16 @@ button:focus {
             }
 
             &--button {
+                display: flex;
+                align-self: center;
                 position: absolute;
                 right: 0 !important;
                 border: none;
                 background-color: transparent;
-                font-size: 42px;
-                line-height: 32px;
+                font-size: 32px;
                 color: #9AA0A6;
-                appearance: none;
+                margin-left: auto;
                 z-index: 999;
-                margin: 0;
-                flex: 0 1 auto;
 
                 &:hover {
                     opacity: 0.7;
