@@ -24,19 +24,20 @@ button:focus {
 
         &_form {
             display: flex;
-            margin-bottom: 16px;
+            // margin-bottom: 16px;
+            border-bottom: 1px solid #dfe1e5;
 
             &--input {
                 display: inline-flex;
                 font-size: 18px;
                 border: none;
                 border-radius: 0;
-                border-bottom: 1px solid #dfe1e5;
                 outline: 0;
                 padding-bottom: 8px;
                 width: 100%;
                 appearance: none;
                 margin-right: auto;
+                padding-right: 16px;
             }
 
             &--button {
@@ -44,9 +45,9 @@ button:focus {
                 background-color: transparent;
                 font-size: 42px;
                 line-height: 32px;
-                font-weight: bold;
+                // font-weight: bold;
                 color: #9AA0A6;
-                padding-right: 0;
+                // padding-right: 0;
 
                 &:hover {
                     opacity: 0.7;
