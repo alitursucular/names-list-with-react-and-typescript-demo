@@ -26,25 +26,20 @@ button:focus {
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
-            position: relative;
+            justify-content: space-between;
             border-bottom: 1px solid #dfe1e5;
 
             &--input {
-                display: inline-flex;
                 font-size: 18px;
                 border: none;
                 border-radius: 0;
                 outline: 0;
-                padding-bottom: 8px;
-                width: 100%;
+                padding: 0 0 8px;
+                width: 92%;
                 appearance: none;
-                margin-right: auto;
-                padding-right: 56px;
             }
 
             &--button {
-                position: absolute;
-                right: 0;
                 border: none;
                 background-color: transparent;
                 font-size: 42px;
