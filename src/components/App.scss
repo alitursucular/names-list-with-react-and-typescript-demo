@@ -26,25 +26,31 @@ button:focus {
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
-            justify-content: space-between;
             border-bottom: 1px solid #dfe1e5;
+            padding-bottom: 8px;
+            position: relative;
 
             &--input {
+                position: relative;
                 font-size: 18px;
                 border: none;
                 border-radius: 0;
                 outline: 0;
-                padding: 0 0 8px;
-                width: 92%;
+                padding: 0 56px 0 0;
+                margin: 0;
+                width: 100%;
                 appearance: none;
             }
 
             &--button {
+                position: absolute;
+                right: 0 !important;
                 border: none;
                 background-color: transparent;
                 font-size: 42px;
                 line-height: 32px;
                 color: #9AA0A6;
+                appearance: none;
                 z-index: 999;
 
                 &:hover {
@@ -80,10 +86,6 @@ button:focus {
                 &:hover {
                     opacity: 0.7;
                 }
-            }
-
-            &--error {
-                color: red;
             }
         }
     }

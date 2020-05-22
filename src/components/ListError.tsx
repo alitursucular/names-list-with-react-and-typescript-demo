@@ -9,6 +9,6 @@ export const ListError: React.FC<ListErrorProps> = ({ names }) => {
     if (names.length !== 0) return null;
 
     return (
-        <li className="text-danger">Your list is empty!</li>
+        <li className="text-danger mt-2">Your list is empty!</li>
     )
 }
