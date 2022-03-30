@@ -6,3 +6,6 @@ For the [**blog post**](https://alitursucular.github.io/names-list-with-react-an
 ---
 
 Note: The source code is in the _master branch_ while the build code is in _gh-pages_.
+
+**Run this project:** `npm start`
+This project uses nvm (for Mac users), and the required node version can be found in _.nvmrc_
